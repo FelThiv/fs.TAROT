@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 108.0, 136.0, 651.0, 498.0 ],
+		"rect" : [ 108.0, 136.0, 625.0, 481.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,32 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 222.0, 69.0, 114.0, 36.0 ],
+					"text" : "read d_0-M_the_fool.jpg"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 222.0, 21.0, 100.0, 36.0 ],
+					"text" : "read 0-M_the_fool.jpg"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "newobj",
@@ -388,13 +414,12 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-35",
-													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 807.75, 745.4365234375, 50.0, 36.0 ],
-													"text" : "439.756289"
+													"text" : "841.896703"
 												}
 
 											}
@@ -701,7 +726,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 595.0, 177.4365234375, 50.0, 22.0 ],
-													"text" : "998"
+													"text" : "997"
 												}
 
 											}
@@ -1193,7 +1218,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 11.0, 525.4365234375, 44.0, 36.0 ],
-													"text" : "51. 100"
+													"text" : "51.5 100"
 												}
 
 											}
@@ -2201,7 +2226,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 587.0, 383.0, 50.0, 36.0 ],
-													"text" : "101.911218"
+													"text" : "732.326389"
 												}
 
 											}
@@ -3632,7 +3657,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 567.499999999999886, 393.0, 50.0, 22.0 ],
-																	"text" : "50"
+																	"text" : "49"
 																}
 
 															}
@@ -3644,7 +3669,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 310.499999999999943, 393.0, 50.0, 22.0 ],
-																	"text" : "47"
+																	"text" : "45"
 																}
 
 															}
@@ -3656,7 +3681,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 50.0, 393.0, 50.0, 22.0 ],
-																	"text" : "43"
+																	"text" : "42"
 																}
 
 															}
@@ -3728,7 +3753,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 98.0, 150.0, 50.0, 22.0 ],
-																	"text" : "3"
+																	"text" : "2"
 																}
 
 															}
@@ -7917,7 +7942,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 474.0, 484.0, 79.0, 22.0 ],
-													"text" : "84.331244"
+													"text" : "23.328489"
 												}
 
 											}
@@ -7978,7 +8003,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 213.0, 222.0, 50.0, 22.0 ],
-													"text" : "1136"
+													"text" : "2320"
 												}
 
 											}
@@ -8098,7 +8123,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 595.0, 177.4365234375, 50.0, 22.0 ],
-													"text" : "656"
+													"text" : "984"
 												}
 
 											}
@@ -8309,13 +8334,13 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-68",
-													"linecount" : 2,
+													"linecount" : 3,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 6.75, 645.4365234375, 44.0, 50.0 ],
-													"text" : "76 100"
+													"text" : "81 23.635579"
 												}
 
 											}
@@ -9182,7 +9207,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 369.0, 21.0, 235.0, 438.05825242718447 ],
-					"pic" : "0-M_the_fool.jpg",
+					"pic" : "d_0-M_the_fool.jpg",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 235.0, 438.05825242718447 ]
 				}
@@ -9257,7 +9282,26 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"midpoints" : [ 20.5, 169.0, 194.0, 169.0, 194.0, 10.0, 231.5, 10.0 ],
+					"order" : 0,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"midpoints" : [ 52.0, 169.0, 212.75, 169.0, 212.75, 60.0, 231.5, 60.0 ],
+					"order" : 0,
+					"source" : [ "obj-11", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
+					"order" : 1,
 					"source" : [ "obj-11", 1 ]
 				}
 
@@ -9265,6 +9309,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
+					"order" : 1,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -9282,6 +9327,22 @@
 					"destination" : [ "obj-9", 0 ],
 					"order" : 1,
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"midpoints" : [ 231.5, 64.0, 352.0, 64.0, 352.0, 10.0, 378.5, 10.0 ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"midpoints" : [ 231.5, 111.0, 353.0, 111.0, 353.0, 10.0, 378.5, 10.0 ],
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
@@ -9372,9 +9433,9 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "0-M_the_fool.jpg",
-				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/fs.TAROT/fs-tarot/z_media/picsUp/MAJORS",
-				"patcherrelativepath" : "../z_media/picsUp/MAJORS",
+				"name" : "d_0-M_the_fool.jpg",
+				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/fs.TAROT/fs-tarot/z_media/picsDown/MAJORS",
+				"patcherrelativepath" : "../z_media/picsDown/MAJORS",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
