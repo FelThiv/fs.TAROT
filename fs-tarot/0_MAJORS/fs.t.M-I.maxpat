@@ -12,7 +12,7 @@
 		"classnamespace" : "box",
 		"rect" : [ 291.0, 335.0, 640.0, 511.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -38,6 +38,32 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"linecount" : 3,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 227.0, 47.0, 91.0, 50.0 ],
+					"text" : "read 1-M_the_magician.jpg"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"linecount" : 3,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 227.0, 109.0, 91.0, 50.0 ],
+					"text" : "read d_1-M_the_magician.jpg"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "newobj",
@@ -424,7 +450,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 368.0, 21.0, 237.0, 441.786407766990294 ],
-					"pic" : "1-M_the_magician.jpg"
+					"pic" : "1-M_the_magician.jpg",
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 237.0, 441.786407766990294 ]
 				}
 
 			}
@@ -497,7 +525,26 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"midpoints" : [ 52.0, 162.0, 213.0, 162.0, 213.0, 105.0, 236.5, 105.0 ],
+					"order" : 0,
+					"source" : [ "obj-11", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"midpoints" : [ 20.5, 162.0, 213.0, 162.0, 213.0, 42.0, 236.5, 42.0 ],
+					"order" : 0,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
+					"order" : 1,
 					"source" : [ "obj-11", 1 ]
 				}
 
@@ -505,6 +552,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
+					"order" : 1,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -522,6 +570,22 @@
 					"destination" : [ "obj-9", 0 ],
 					"order" : 1,
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"midpoints" : [ 236.5, 171.0, 354.0, 171.0, 354.0, 15.0, 377.5, 15.0 ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"midpoints" : [ 236.5, 102.0, 340.0, 102.0, 340.0, 13.0, 377.5, 13.0 ],
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}

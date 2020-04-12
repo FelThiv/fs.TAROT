@@ -12,7 +12,7 @@
 		"classnamespace" : "box",
 		"rect" : [ 108.0, 136.0, 625.0, 481.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -414,12 +414,13 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-35",
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 807.75, 745.4365234375, 50.0, 36.0 ],
-													"text" : "841.896703"
+													"text" : "1488.066641"
 												}
 
 											}
@@ -726,7 +727,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 595.0, 177.4365234375, 50.0, 22.0 ],
-													"text" : "997"
+													"text" : "367"
 												}
 
 											}
@@ -1175,7 +1176,6 @@
 												"box" : 												{
 													"id" : "obj-74",
 													"inputs" : 3,
-													"int" : 2,
 													"maxclass" : "gswitch",
 													"numinlets" : 4,
 													"numoutlets" : 1,
@@ -1218,7 +1218,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 11.0, 525.4365234375, 44.0, 36.0 ],
-													"text" : "51.5 100"
+													"text" : "102 100"
 												}
 
 											}
@@ -2226,7 +2226,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 587.0, 383.0, 50.0, 36.0 ],
-													"text" : "732.326389"
+													"text" : "602.990516"
 												}
 
 											}
@@ -3657,7 +3657,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 567.499999999999886, 393.0, 50.0, 22.0 ],
-																	"text" : "49"
+																	"text" : "61"
 																}
 
 															}
@@ -3669,7 +3669,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 310.499999999999943, 393.0, 50.0, 22.0 ],
-																	"text" : "45"
+																	"text" : "57"
 																}
 
 															}
@@ -3681,7 +3681,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 50.0, 393.0, 50.0, 22.0 ],
-																	"text" : "42"
+																	"text" : "54"
 																}
 
 															}
@@ -3753,7 +3753,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 98.0, 150.0, 50.0, 22.0 ],
-																	"text" : "2"
+																	"text" : "9"
 																}
 
 															}
@@ -7942,7 +7942,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 474.0, 484.0, 79.0, 22.0 ],
-													"text" : "23.328489"
+													"text" : "71.549604"
 												}
 
 											}
@@ -8003,7 +8003,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 213.0, 222.0, 50.0, 22.0 ],
-													"text" : "2320"
+													"text" : "768"
 												}
 
 											}
@@ -8340,7 +8340,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 6.75, 645.4365234375, 44.0, 50.0 ],
-													"text" : "81 23.635579"
+													"text" : "83 67.320459"
 												}
 
 											}
@@ -9207,7 +9207,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 369.0, 21.0, 235.0, 438.05825242718447 ],
-					"pic" : "d_0-M_the_fool.jpg",
+					"pic" : "0-M_the_fool.jpg",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 235.0, 438.05825242718447 ]
 				}
@@ -9232,7 +9232,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -9244,7 +9244,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -9256,7 +9256,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -9416,105 +9416,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-7::obj-12" : [ "live.gain~", "out", 0 ],
-			"obj-4::obj-44::obj-171" : [ "gain[4]", "gain", 0 ],
-			"obj-7::obj-202::obj-183" : [ "Glide", "Glide", 0 ],
-			"obj-7::obj-202::obj-184" : [ "Transp", "Transp", 0 ],
-			"obj-4::obj-44::obj-137" : [ "gain[3]", "gain", 0 ],
-			"obj-7::obj-1" : [ "out", "out", 0 ],
-			"obj-4::obj-44::obj-167" : [ "gain[1]", "gain", 0 ],
-			"obj-7::obj-202::obj-137" : [ "gain[2]", "gain", 0 ],
-			"parameterbanks" : 			{
-
-			}
-
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "d_0-M_the_fool.jpg",
-				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/fs.TAROT/fs-tarot/z_media/picsDown/MAJORS",
-				"patcherrelativepath" : "../z_media/picsDown/MAJORS",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fs.voice.maxpat",
-				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/maxlib-felthiv/generators",
-				"patcherrelativepath" : "../../../maxlib-felthiv/generators",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fs.oscilC.maxpat",
-				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/maxlib-felthiv/generators",
-				"patcherrelativepath" : "../../../maxlib-felthiv/generators",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fs.lfo.maxpat",
-				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/maxlib-felthiv/utils",
-				"patcherrelativepath" : "../../../maxlib-felthiv/utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fs.scales.maxpat",
-				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/maxlib-felthiv/utils",
-				"patcherrelativepath" : "../../../maxlib-felthiv/utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fs.ntom.maxpat",
-				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/maxlib-felthiv/utils",
-				"patcherrelativepath" : "../../../maxlib-felthiv/utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fs.delmod.maxpat",
-				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/maxlib-felthiv/fxs",
-				"patcherrelativepath" : "../../../maxlib-felthiv/fxs",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fs.del.maxpat",
-				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/maxlib-felthiv/fxs",
-				"patcherrelativepath" : "../../../maxlib-felthiv/fxs",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fs.dw.maxpat",
-				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/maxlib-felthiv/utils",
-				"patcherrelativepath" : "../../../maxlib-felthiv/utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fs.rev.maxpat",
-				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/maxlib-felthiv/fxs",
-				"patcherrelativepath" : "../../../maxlib-felthiv/fxs",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fs.od.maxpat",
-				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/maxlib-felthiv/fxs",
-				"patcherrelativepath" : "../../../maxlib-felthiv/fxs",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "nw.gverb~.mxe64",
-				"type" : "mx64"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

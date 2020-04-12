@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 107.0, 656.0, 371.0 ],
+		"rect" : [ 34.0, 77.0, 1220.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,26 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-9",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "fs.t.noCard.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 29.0, 440.0, 236.0, 434.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "message",
@@ -75,13 +95,13 @@
 					"patching_rect" : [ 264.0, 210.0, 136.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "out",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_linknames" : 1,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "out[2]",
-							"parameter_mmax" : 6.0
+							"parameter_mmax" : 6.0,
+							"parameter_shortname" : "out"
 						}
 
 					}
@@ -140,13 +160,13 @@
 					"patching_rect" : [ 57.0, 218.0, 136.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "out",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_linknames" : 1,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "out[1]",
-							"parameter_mmax" : 6.0
+							"parameter_mmax" : 6.0,
+							"parameter_shortname" : "out"
 						}
 
 					}
@@ -216,7 +236,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"source" : [ "obj-6", 4 ]
+					"source" : [ "obj-6", 1 ]
 				}
 
 			}
@@ -250,16 +270,16 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-4::obj-44::obj-167" : [ "gain[1]", "gain", 0 ],
-			"obj-3" : [ "out[1]", "out", 0 ],
+			"obj-1::obj-4::obj-44::obj-171" : [ "gain[4]", "gain", 0 ],
 			"obj-1::obj-7::obj-12" : [ "live.gain~", "out", 0 ],
 			"obj-1::obj-7::obj-202::obj-137" : [ "gain[2]", "gain", 0 ],
-			"obj-1::obj-4::obj-44::obj-171" : [ "gain[4]", "gain", 0 ],
-			"obj-1::obj-7::obj-1" : [ "out", "out", 0 ],
 			"obj-1::obj-4::obj-44::obj-137" : [ "gain[3]", "gain", 0 ],
-			"obj-6" : [ "out[2]", "out", 0 ],
+			"obj-1::obj-7::obj-1" : [ "out", "out", 0 ],
+			"obj-3" : [ "out[1]", "out", 0 ],
+			"obj-1::obj-4::obj-44::obj-167" : [ "gain[1]", "gain", 0 ],
 			"obj-1::obj-7::obj-202::obj-183" : [ "Glide", "Glide", 0 ],
 			"obj-1::obj-7::obj-202::obj-184" : [ "Transp", "Transp", 0 ],
+			"obj-6" : [ "out[2]", "out", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -283,8 +303,8 @@
 			}
 , 			{
 				"name" : "0-M_the_fool.jpg",
-				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/fs.TAROT/fs-tarot/z_media/pics/MAJORS",
-				"patcherrelativepath" : "./z_media/pics/MAJORS",
+				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/fs.TAROT/fs-tarot/z_media/picsUp/MAJORS",
+				"patcherrelativepath" : "./z_media/picsUp/MAJORS",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
@@ -367,9 +387,16 @@
 			}
 , 			{
 				"name" : "1-M_the_magician.jpg",
-				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/fs.TAROT/fs-tarot/z_media/pics/MAJORS",
-				"patcherrelativepath" : "./z_media/pics/MAJORS",
+				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/fs.TAROT/fs-tarot/z_media/picsUp/MAJORS",
+				"patcherrelativepath" : "./z_media/picsUp/MAJORS",
 				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fs.t.noCard.maxpat",
+				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/fs.TAROT/fs-tarot/utils",
+				"patcherrelativepath" : "./utils",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
