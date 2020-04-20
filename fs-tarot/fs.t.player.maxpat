@@ -10,9 +10,9 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1852.0, 939.0 ],
+		"rect" : [ 364.0, 147.0, 854.0, 627.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"showontab" : 2,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-27",
@@ -736,7 +737,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 273.0, 195.0, 104.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"text" : "textcolor $1 $2 $3"
 								}
 
@@ -1017,10 +1017,10 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 0.79, 0.0 ],
+					"bgcolor" : [ 0.48, 0.15, 0.67 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 1.0, 0.79, 0.0 ],
+					"bgfillcolor_color" : [ 0.48, 0.15, 0.67 ],
 					"bgfillcolor_color1" : [ 0.996078431372549, 0.32156862745098, 0.137254901960784, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
@@ -1037,16 +1037,16 @@
 					"patching_rect" : [ 306.0, 71.0, 81.569478908188557, 31.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 415.996960486322678, 115.5, 81.0, 31.0 ],
-					"textcolor" : [ 0.48, 0.15, 0.67, 1.0 ]
+					"textcolor" : [ 1.0, 0.79, 0.0, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.5, 0.5, 0.5 ],
+					"bgcolor" : [ 0.48, 0.15, 0.67 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.5, 0.5, 0.5 ],
+					"bgfillcolor_color" : [ 0.48, 0.15, 0.67 ],
 					"bgfillcolor_color1" : [ 0.996078431372549, 0.32156862745098, 0.137254901960784, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
@@ -1063,7 +1063,7 @@
 					"patching_rect" : [ 40.0, 71.0, 81.569478908188557, 31.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 149.996960486322678, 115.5, 81.0, 31.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 1.0, 0.79, 0.0, 1.0 ]
 				}
 
 			}
@@ -1701,7 +1701,7 @@
 					"angle" : 270.0,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"border" : 5,
-					"bordercolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"bordercolor" : [ 0.48, 0.15, 0.67, 1.0 ],
 					"horizontal_direction" : 1,
 					"id" : "obj-195",
 					"maxclass" : "panel",
@@ -1720,7 +1720,7 @@
 					"angle" : 270.0,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"border" : 5,
-					"bordercolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"bordercolor" : [ 0.48, 0.15, 0.67, 1.0 ],
 					"horizontal_direction" : 1,
 					"id" : "obj-194",
 					"maxclass" : "panel",
@@ -1739,7 +1739,7 @@
 					"angle" : 270.0,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"border" : 5,
-					"bordercolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+					"bordercolor" : [ 0.48, 0.15, 0.67, 1.0 ],
 					"horizontal_direction" : 1,
 					"id" : "obj-193",
 					"maxclass" : "panel",
@@ -1792,11 +1792,11 @@
 					"presentation_rect" : [ 24.0, 15.0, 72.0, 72.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "off", "on" ],
-							"parameter_type" : 2,
 							"parameter_longname" : "live.button[3]",
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "live.button"
+							"parameter_shortname" : "live.button",
+							"parameter_enum" : [ "off", "on" ],
+							"parameter_type" : 2
 						}
 
 					}
@@ -1820,11 +1820,11 @@
 					"presentation_rect" : [ 232.996960486322678, 115.5, 33.0, 31.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "off", "on" ],
-							"parameter_type" : 2,
 							"parameter_longname" : "live.button[2]",
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "live.button"
+							"parameter_shortname" : "live.button",
+							"parameter_enum" : [ "off", "on" ],
+							"parameter_type" : 2
 						}
 
 					}
@@ -1848,11 +1848,11 @@
 					"presentation_rect" : [ 500.68541033434667, 115.5, 31.31458966565333, 31.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "off", "on" ],
-							"parameter_type" : 2,
 							"parameter_longname" : "live.button[1]",
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "live.button"
+							"parameter_shortname" : "live.button",
+							"parameter_enum" : [ "off", "on" ],
+							"parameter_type" : 2
 						}
 
 					}
@@ -1876,11 +1876,11 @@
 					"presentation_rect" : [ 764.682370820669348, 115.5, 33.317629179330652, 31.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "off", "on" ],
-							"parameter_type" : 2,
 							"parameter_longname" : "live.button",
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "live.button"
+							"parameter_shortname" : "live.button",
+							"parameter_enum" : [ "off", "on" ],
+							"parameter_type" : 2
 						}
 
 					}
@@ -1964,33 +1964,39 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-171",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1277.18541033434667, 794.0, 50.0, 22.0 ]
+					"patching_rect" : [ 1277.18541033434667, 794.0, 50.0, 50.0 ],
+					"text" : "fs.t.M-0.maxpat"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-170",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1117.68541033434667, 794.0, 50.0, 22.0 ]
+					"patching_rect" : [ 1117.68541033434667, 794.0, 50.0, 50.0 ],
+					"text" : "fs.t.M-XII.maxpat"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-169",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 963.18541033434667, 794.0, 50.0, 22.0 ]
+					"patching_rect" : [ 963.18541033434667, 794.0, 50.0, 50.0 ],
+					"text" : "fs.t.M-IV.maxpat"
 				}
 
 			}
@@ -3131,14 +3137,14 @@
 					"presentation_rect" : [ 114.0, 15.0, 598.0, 72.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 1,
-							"parameter_linknames" : 1,
 							"parameter_longname" : "gain[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 1.0,
 							"parameter_initial" : [ 0.5 ],
-							"parameter_shortname" : "gain"
+							"parameter_shortname" : "gain",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 1,
+							"parameter_linknames" : 1
 						}
 
 					}
@@ -3369,11 +3375,11 @@
 					"id" : "obj-38",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "fs.t.noCard.maxpat",
+					"name" : "fs.t.M-0.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 575.0, 119.302245999999997, 242.0, 446.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 556.0, 157.5, 238.0, 441.5 ],
@@ -3393,7 +3399,7 @@
 					"id" : "obj-34",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "fs.t.noCard.maxpat",
+					"name" : "fs.t.M-XII.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -3469,7 +3475,7 @@
 					"id" : "obj-9",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "fs.t.noCard.maxpat",
+					"name" : "fs.t.M-IV.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -3521,11 +3527,11 @@
 					"presentation_rect" : [ 726.0, 15.0, 72.0, 72.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "off", "on" ],
-							"parameter_type" : 2,
 							"parameter_longname" : "live.button[4]",
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "live.button"
+							"parameter_shortname" : "live.button",
+							"parameter_enum" : [ "off", "on" ],
+							"parameter_type" : 2
 						}
 
 					}
@@ -4644,12 +4650,20 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-38::obj-4::obj-44::obj-137" : [ "gain[3]", "gain", 0 ],
 			"obj-186" : [ "live.button[3]", "live.button", 0 ],
-			"obj-183" : [ "live.button", "live.button", 0 ],
-			"obj-73" : [ "live.button[4]", "live.button", 0 ],
-			"obj-184" : [ "live.button[1]", "live.button", 0 ],
+			"obj-38::obj-4::obj-44::obj-171" : [ "gain[4]", "gain", 0 ],
 			"obj-75" : [ "gain[1]", "gain", 0 ],
+			"obj-183" : [ "live.button", "live.button", 0 ],
+			"obj-38::obj-7::obj-202::obj-184" : [ "Transp", "Transp", 0 ],
+			"obj-184" : [ "live.button[1]", "live.button", 0 ],
+			"obj-38::obj-7::obj-1" : [ "out", "out", 0 ],
+			"obj-73" : [ "live.button[4]", "live.button", 0 ],
+			"obj-38::obj-7::obj-202::obj-183" : [ "Glide", "Glide", 0 ],
 			"obj-185" : [ "live.button[2]", "live.button", 0 ],
+			"obj-38::obj-4::obj-44::obj-167" : [ "gain[5]", "gain", 0 ],
+			"obj-38::obj-7::obj-12" : [ "live.gain~", "out", 0 ],
+			"obj-38::obj-7::obj-202::obj-137" : [ "gain[2]", "gain", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -4657,11 +4671,120 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "fs.t.noCard.maxpat",
-				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/fs.TAROT/fs-tarot/utils",
-				"patcherrelativepath" : "./utils",
+				"name" : "fs.t.M-IV.maxpat",
+				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/fs.TAROT/fs-tarot/0_MAJORS",
+				"patcherrelativepath" : "./0_MAJORS",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "4-M_the_emperor.jpg",
+				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/fs.TAROT/fs-tarot/z_media/picsUp/MAJORS",
+				"patcherrelativepath" : "./z_media/picsUp/MAJORS",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fs.t.M-XII.maxpat",
+				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/fs.TAROT/fs-tarot/0_MAJORS",
+				"patcherrelativepath" : "./0_MAJORS",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "12-M_the_hanged_man.jpg",
+				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/fs.TAROT/fs-tarot/z_media/picsUp/MAJORS",
+				"patcherrelativepath" : "./z_media/picsUp/MAJORS",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fs.t.M-0.maxpat",
+				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/fs.TAROT/fs-tarot/0_MAJORS",
+				"patcherrelativepath" : "./0_MAJORS",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "d_0-M_the_fool.jpg",
+				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/fs.TAROT/fs-tarot/z_media/picsDown/MAJORS",
+				"patcherrelativepath" : "./z_media/picsDown/MAJORS",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fs.voice.maxpat",
+				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/maxlib-felthiv/generators",
+				"patcherrelativepath" : "../../maxlib-felthiv/generators",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fs.oscilC.maxpat",
+				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/maxlib-felthiv/generators",
+				"patcherrelativepath" : "../../maxlib-felthiv/generators",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fs.lfo.maxpat",
+				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/maxlib-felthiv/utils",
+				"patcherrelativepath" : "../../maxlib-felthiv/utils",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fs.scales.maxpat",
+				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/maxlib-felthiv/utils",
+				"patcherrelativepath" : "../../maxlib-felthiv/utils",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fs.ntom.maxpat",
+				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/maxlib-felthiv/utils",
+				"patcherrelativepath" : "../../maxlib-felthiv/utils",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fs.delmod.maxpat",
+				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/maxlib-felthiv/fxs",
+				"patcherrelativepath" : "../../maxlib-felthiv/fxs",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fs.del.maxpat",
+				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/maxlib-felthiv/fxs",
+				"patcherrelativepath" : "../../maxlib-felthiv/fxs",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fs.dw.maxpat",
+				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/maxlib-felthiv/utils",
+				"patcherrelativepath" : "../../maxlib-felthiv/utils",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fs.rev.maxpat",
+				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/maxlib-felthiv/fxs",
+				"patcherrelativepath" : "../../maxlib-felthiv/fxs",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fs.od.maxpat",
+				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/maxlib-felthiv/fxs",
+				"patcherrelativepath" : "../../maxlib-felthiv/fxs",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "nw.gverb~.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0,
