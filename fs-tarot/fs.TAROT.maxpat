@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -38,6 +38,7 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"showontab" : 1,
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgcolor" : [ 0.67843137254902, 0.690196078431373, 0.996078431372549, 1.0 ],
@@ -66,13 +67,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 56.0, 182.0, 844.0, 612.0 ],
+						"rect" : [ 0.0, 26.0, 844.0, 612.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -100,6 +101,8 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"showontab" : 1,
+						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"bgmode" : 1,
@@ -146,7 +149,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -180,6 +183,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"showontab" : 2,
+						"assistshowspatchername" : 0,
 						"boxes" : [  ],
 						"lines" : [  ]
 					}
@@ -207,7 +211,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -241,6 +245,8 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"showontab" : 2,
+						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"bgcolor" : [ 0.67843137254902, 0.690196078431373, 0.996078431372549, 1.0 ],
@@ -903,39 +909,74 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-6::obj-1::obj-4::obj-44::obj-137" : [ "gain[3]", "gain", 0 ],
-			"obj-9::obj-1::obj-186" : [ "live.button[3]", "live.button", 0 ],
-			"obj-6::obj-1::obj-4::obj-44::obj-171" : [ "gain[4]", "gain", 0 ],
 			"obj-6::obj-1::obj-4::obj-44::obj-167" : [ "gain[1]", "gain", 0 ],
-			"obj-9::obj-1::obj-183" : [ "live.button", "live.button", 0 ],
+			"obj-6::obj-1::obj-4::obj-44::obj-137" : [ "gain[3]", "gain", 0 ],
+			"obj-9::obj-1::obj-9::obj-4::obj-18" : [ "out[2]", "out", 0 ],
+			"obj-9::obj-1::obj-34::obj-7::obj-12" : [ "live.gain~[1]", "out", 0 ],
+			"obj-9::obj-1::obj-34::obj-4::obj-44::obj-137" : [ "gain[5]", "gain", 0 ],
+			"obj-9::obj-1::obj-34::obj-7::obj-202::obj-137" : [ "gain[8]", "gain", 0 ],
+			"obj-9::obj-1::obj-34::obj-7::obj-1" : [ "out[3]", "out", 0 ],
+			"obj-6::obj-15::obj-4::obj-18" : [ "out[1]", "out", 0 ],
 			"obj-6::obj-1::obj-7::obj-202::obj-184" : [ "Transp", "Transp", 0 ],
-			"obj-9::obj-1::obj-184" : [ "live.button[1]", "live.button", 0 ],
-			"obj-6::obj-1::obj-7::obj-1" : [ "out", "out", 0 ],
-			"obj-9::obj-1::obj-75" : [ "gain[9]", "gain", 0 ],
-			"obj-9::obj-1::obj-73" : [ "live.button[4]", "live.button", 0 ],
-			"obj-6::obj-1::obj-7::obj-202::obj-183" : [ "Glide", "Glide", 0 ],
+			"obj-9::obj-1::obj-183" : [ "live.button", "live.button", 0 ],
 			"obj-9::obj-1::obj-185" : [ "live.button[2]", "live.button", 0 ],
-			"obj-6::obj-1::obj-7::obj-12" : [ "live.gain~", "out", 0 ],
 			"obj-6::obj-1::obj-7::obj-202::obj-137" : [ "gain[2]", "gain", 0 ],
+			"obj-9::obj-1::obj-34::obj-7::obj-202::obj-184" : [ "Transp[1]", "Transp", 0 ],
+			"obj-9::obj-1::obj-34::obj-7::obj-202::obj-183" : [ "Glide[1]", "Glide", 0 ],
+			"obj-9::obj-1::obj-34::obj-4::obj-44::obj-171" : [ "gain[7]", "gain", 0 ],
+			"obj-6::obj-1::obj-7::obj-202::obj-183" : [ "Glide", "Glide", 0 ],
+			"obj-6::obj-1::obj-4::obj-44::obj-171" : [ "gain[4]", "gain", 0 ],
+			"obj-9::obj-1::obj-184" : [ "live.button[1]", "live.button", 0 ],
+			"obj-9::obj-1::obj-75" : [ "gain[9]", "gain", 0 ],
+			"obj-6::obj-1::obj-7::obj-12" : [ "live.gain~", "out", 0 ],
+			"obj-6::obj-1::obj-7::obj-1" : [ "out", "out", 0 ],
+			"obj-9::obj-1::obj-186" : [ "live.button[3]", "live.button", 0 ],
+			"obj-9::obj-1::obj-73" : [ "live.button[4]", "live.button", 0 ],
+			"obj-9::obj-1::obj-34::obj-4::obj-44::obj-167" : [ "gain[6]", "gain", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-9::obj-1::obj-9::obj-4::obj-18" : 				{
+					"parameter_longname" : "out[2]"
+				}
+,
+				"obj-9::obj-1::obj-34::obj-7::obj-12" : 				{
+					"parameter_longname" : "live.gain~[1]"
+				}
+,
+				"obj-9::obj-1::obj-34::obj-7::obj-1" : 				{
+					"parameter_longname" : "out[3]"
+				}
+,
+				"obj-6::obj-15::obj-4::obj-18" : 				{
+					"parameter_longname" : "out[1]"
+				}
+,
 				"obj-6::obj-1::obj-7::obj-202::obj-184" : 				{
 					"parameter_longname" : "Transp"
 				}
 ,
-				"obj-6::obj-1::obj-7::obj-1" : 				{
-					"parameter_longname" : "out"
+				"obj-9::obj-1::obj-34::obj-7::obj-202::obj-184" : 				{
+					"parameter_longname" : "Transp[1]"
+				}
+,
+				"obj-9::obj-1::obj-34::obj-7::obj-202::obj-183" : 				{
+					"parameter_longname" : "Glide[1]"
 				}
 ,
 				"obj-6::obj-1::obj-7::obj-202::obj-183" : 				{
 					"parameter_longname" : "Glide"
 				}
+,
+				"obj-6::obj-1::obj-7::obj-1" : 				{
+					"parameter_longname" : "out"
+				}
 
 			}
-
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -1320,13 +1361,6 @@
 				"name" : "fs.t.player.maxpat",
 				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/fs.TAROT/fs-tarot",
 				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fs.t.noCard.maxpat",
-				"bootpath" : "~/Documents/0_WORKPLACE/Gitproj/fs.TAROT/fs-tarot/utils",
-				"patcherrelativepath" : "./utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
