@@ -7,3 +7,6 @@ this is a simpleproject in which I "sonify" each major arcana of a tarot card de
 One abstraction per card + a "player" patch, a project overview patch and a test patch.
 
 This is a ludic exercise and serves as pretext for building and expending my library and making funny algorythmic music :)
+
+DEPENDANCIES
+I think you only need my other library **maxlib-felthiv**
