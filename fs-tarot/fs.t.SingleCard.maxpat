@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 210.0, 135.0, 314.0, 548.0 ],
+		"rect" : [ 209.0, 135.0, 314.0, 548.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -26,7 +26,7 @@
 		"toptoolbarpinned" : 2,
 		"righttoolbarpinned" : 2,
 		"bottomtoolbarpinned" : 2,
-		"toolbars_unpinned_last_save" : 0,
+		"toolbars_unpinned_last_save" : 15,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -406,10 +406,10 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.48, 0.15, 0.67 ],
+					"bgcolor" : [ 1.0, 0.79, 0.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.48, 0.15, 0.67 ],
+					"bgfillcolor_color" : [ 1.0, 0.79, 0.0 ],
 					"bgfillcolor_color1" : [ 0.996078431372549, 0.32156862745098, 0.137254901960784, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
@@ -426,7 +426,7 @@
 					"patching_rect" : [ 40.0, 71.0, 81.569478908188557, 31.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 140.996960486322678, 54.5, 81.0, 31.0 ],
-					"textcolor" : [ 1.0, 0.79, 0.0, 1.0 ]
+					"textcolor" : [ 0.48, 0.15, 0.67, 1.0 ]
 				}
 
 			}
@@ -650,7 +650,7 @@
 					"angle" : 270.0,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"border" : 5,
-					"bordercolor" : [ 0.48, 0.15, 0.67, 1.0 ],
+					"bordercolor" : [ 1.0, 0.79, 0.0, 1.0 ],
 					"horizontal_direction" : 1,
 					"id" : "obj-193",
 					"maxclass" : "panel",
@@ -702,11 +702,11 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 223.996960486322678, 54.5, 33.0, 31.0 ],
 					"saved_attribute_attributes" : 					{
-						"activebgcolor" : 						{
+						"activebgoncolor" : 						{
 							"expression" : ""
 						}
 ,
-						"activebgoncolor" : 						{
+						"activebgcolor" : 						{
 							"expression" : ""
 						}
 ,
@@ -1236,7 +1236,7 @@
 					"color" : [ 0.172549019607843, 0.184313725490196, 0.996078431372549, 1.0 ],
 					"fontsize" : 20.0,
 					"id" : "obj-144",
-					"items" : [ "le mat", ",", "le bateleur", ",", "la papesse", ",", "l'imperatrice", ",", "l'empereur", ",", "le pape", ",", "l'amoureux", ",", "le chariot", ",", "la justice", ",", "l'hermite", ",", "la roue de fortune", ",", "la force", ",", "le pendu", ",", "la mort", ",", "temperance", ",", "le diable", ",", "la maison dieu", ",", "le toille", ",", "la lune", ",", "le soleil", ",", "le jugement", ",", "le monde", ",", "No Card", ",", "le mat", ",", "le bateleur", ",", "la papesse", ",", "l'imperatrice", ",", "l'empereur", ",", "le pape", ",", "l'amoureux", ",", "le chariot", ",", "la justice", ",", "l'hermite", ",", "la roue de fortune", ",", "la force", ",", "le pendu", ",", "la mort", ",", "temperance", ",", "le diable", ",", "la maison dieu", ",", "le toille", ",", "la lune", ",", "le soleil", ",", "le jugement", ",", "le monde", ",", "No Card", ",", "le mat", ",", "le bateleur", ",", "la papesse", ",", "l'imperatrice", ",", "l'empereur", ",", "le pape", ",", "l'amoureux", ",", "le chariot", ",", "la justice", ",", "l'hermite", ",", "la roue de fortune", ",", "la force", ",", "le pendu", ",", "la mort", ",", "temperance", ",", "le diable", ",", "la maison dieu", ",", "le toille", ",", "la lune", ",", "le soleil", ",", "le jugement", ",", "le monde", ",", "No Card" ],
+					"items" : [ "le mat", ",", "le bateleur", ",", "la papesse", ",", "l'imperatrice", ",", "l'empereur", ",", "le pape", ",", "l'amoureux", ",", "le chariot", ",", "la justice", ",", "l'hermite", ",", "la roue de fortune", ",", "la force", ",", "le pendu", ",", "la mort", ",", "temperance", ",", "le diable", ",", "la maison dieu", ",", "le toille", ",", "la lune", ",", "le soleil", ",", "le jugement", ",", "le monde", ",", "No Card", ",", "le mat", ",", "le bateleur", ",", "la papesse", ",", "l'imperatrice", ",", "l'empereur", ",", "le pape", ",", "l'amoureux", ",", "le chariot", ",", "la justice", ",", "l'hermite", ",", "la roue de fortune", ",", "la force", ",", "le pendu", ",", "la mort", ",", "temperance", ",", "le diable", ",", "la maison dieu", ",", "le toille", ",", "la lune", ",", "le soleil", ",", "le jugement", ",", "le monde", ",", "No Card", ",", "le mat", ",", "le bateleur", ",", "la papesse", ",", "l'imperatrice", ",", "l'empereur", ",", "le pape", ",", "l'amoureux", ",", "le chariot", ",", "la justice", ",", "l'hermite", ",", "la roue de fortune", ",", "la force", ",", "le pendu", ",", "la mort", ",", "temperance", ",", "le diable", ",", "la maison dieu", ",", "le toille", ",", "la lune", ",", "le soleil", ",", "le jugement", ",", "le monde", ",", "No Card", ",", "le mat", ",", "le bateleur", ",", "la papesse", ",", "l'imperatrice", ",", "l'empereur", ",", "le pape", ",", "l'amoureux", ",", "le chariot", ",", "la justice", ",", "l'hermite", ",", "la roue de fortune", ",", "la force", ",", "le pendu", ",", "la mort", ",", "temperance", ",", "le diable", ",", "la maison dieu", ",", "le toille", ",", "la lune", ",", "le soleil", ",", "le jugement", ",", "le monde", ",", "No Card" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1436,6 +1436,13 @@
 					"patching_rect" : [ 887.0, 425.0, 14.0, 148.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 294.0, 10.0, 9.0, 530.0 ],
+					"saved_attribute_attributes" : 					{
+						"slidercolor" : 						{
+							"expression" : ""
+						}
+
+					}
+,
 					"threshold_db" : 0.04
 				}
 
@@ -1680,11 +1687,11 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 223.996960486322678, 10.0, 33.0, 31.0 ],
 					"saved_attribute_attributes" : 					{
-						"activebgcolor" : 						{
+						"activebgoncolor" : 						{
 							"expression" : ""
 						}
 ,
-						"activebgoncolor" : 						{
+						"activebgcolor" : 						{
 							"expression" : ""
 						}
 ,
@@ -2116,9 +2123,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "d_1-M_the_magician.jpg",
-				"bootpath" : "D:/0_projects/_tools/gitProjects/fs.TAROT/fs-tarot/z_media/picsDown/MAJORS",
-				"patcherrelativepath" : "./z_media/picsDown/MAJORS",
+				"name" : "1-M_the_magician.jpg",
+				"bootpath" : "D:/0_projects/_tools/gitProjects/fs.TAROT/fs-tarot/z_media/picsUp/MAJORS",
+				"patcherrelativepath" : "./z_media/picsUp/MAJORS",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
