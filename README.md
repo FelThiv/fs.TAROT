@@ -1,6 +1,6 @@
 # fs.TAROT
 
-NOTHING IS WORKING ATM
+A very small number of cards work at the moment (starting from the top of the list in the umemnu)
 
 Extension to my standard max library.
 this is a simpleproject in which I "sonify" each major arcana of a tarot card deck (both upside and downside card positions) and use them to make musical ... stuff? 
